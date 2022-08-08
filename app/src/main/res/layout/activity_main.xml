@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFFFFFFF"
+	tools:context="com.google.com.android.MainActivity">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="IMGUI MOD MENU DOESN'T SHOW UP AS IT HOOKS THE TOUCH AND SWAPBUFFERS TO SHOW THE MOD MENU, YOU HAVE TO ADD THE MENU IN GAME TO VIEW THE MOD. REMEMBER TO ADD THE SMALI OF LOAD LIBRARY IN GAME'S MAINACTIVITY UNDER ONCREATE FOR THE MENU LIBRARY TO WORK AND SHOW UP IN GAME"
+		android:gravity="center"
+		android:padding="10dp"/>
+
+</FrameLayout>
+
